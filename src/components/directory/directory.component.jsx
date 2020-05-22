@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { sections } from "../../utils/data";
+import sections from "../../utils/sections";
 import MenuItem from "../menu-item/menu-item.component";
 
 // SCSS
