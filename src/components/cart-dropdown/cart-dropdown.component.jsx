@@ -1,11 +1,11 @@
 import React from "react";
-import { selectCartItems } from "./../../redux/cart/cart.selectors";
 import { connect } from "react-redux";
+import { createStructuredSelector } from "reselect";
 import { withRouter } from "react-router-dom";
 
 import CustomButton from "./../custom-button/custom-button.component";
 import CartItem from "./../cart-item/cart-item.component";
-import { createStructuredSelector } from "reselect";
+import { selectCartItems } from "./../../redux/cart/cart.selectors";
 import { toggleCartHidden } from "./../../redux/cart/cart.actions";
 
 // SCSS
